@@ -1,0 +1,322 @@
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-weight: 700;
+    font-family: Lato, Arial, Helvetica;
+    text-rendering: optimizeLegibility;
+}
+
+/* -------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------- */
+
+.container {
+    width: 1536px;
+    margin: 0 auto;
+}
+
+/* ------ HEADINGS ------ */
+
+.row1 h2,
+.row3 h2,
+.row4 h2 {
+    font-size: 3.0em;
+    letter-spacing: 1.5px;
+}
+
+.pair-text h2,
+.pair-text h3,
+.pair-text p {
+    max-width: 600px;  /* adjust to your layout */
+    text-align: justify;
+}
+
+h2,
+h3 {
+    width: 70%;
+    color: #fff;
+}
+
+.row2 .pair-text h3 {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.row3 .pair-text h2 {
+    text-align: center;
+}
+
+.row4 .pair-text h2 {
+    text-align: center;
+}
+
+.row5 .pair-text h3 {
+    font-size: 1.7em;
+    text-align: center;
+    color: rgb(5, 93, 5);
+}
+
+/* ------ PARAGRAPHS ------ */
+
+.row1 .pair-text p,
+.row3 .pair-text p,
+.row4 .pair-text p {
+    font-size: 1.5em;
+}
+
+.row2 .pair-text p {
+    font-size: 1.2em;
+}
+
+.row5 .pair-text p {
+    font-size: 1.2em;
+    line-height: 1.9;
+    color: rgb(5, 93, 5);
+}
+
+.order-box p {
+    font-size: 130%;
+    font-weight: 700;
+    color: #fff;
+}
+
+.pair-text p {
+    width: 70%;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* ------ BUTTONS ------ */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-ghost {
+    color: rgb(116, 112, 112);
+    border: 1px solid rgb(88, 86, 86);
+}
+
+.btn-full {
+    margin-left: 20px;
+    border: 1px solid black;
+    font-size: 115%;
+    font-weight: 700;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-order {
+    border: 2.5px solid #fff;
+    font-size: 120%;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.btn-row1 {
+    border: 1px solid #fff;
+    font-size: 1.1em;
+    color: rgb(5, 93, 5);
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.btn-row2 {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.row3 .btn-row1 {
+    font-size: 1.2em;
+}
+
+.btn-row5 {
+    font-size: 1.2em;
+    color: #fff;
+    background-color: rgb(5, 93, 5);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-ghost:hover {
+    background-color: rgba(238, 233, 233, 0.685);
+}
+
+.btn-full:hover {
+    color: rgb(161, 159, 159);
+    background-color: #1313132f;
+}
+
+.btn-order:hover {
+    background-color: rgb(3, 133, 94);
+}
+
+.btn-row1:hover {
+    border-color: transparent;
+    background-color: rgba(238, 233, 233, 0.685);
+}
+
+.btn-row2:hover {
+    color: #000;
+    background-color: rgba(238, 233, 233, 0.685);
+    border-color: transparent;
+}
+
+.row3 .btn-row1:hover {
+    background-color: rgba(238, 233, 233, 0.685);
+    border-color: transparent;
+}
+
+.btn-row5:hover {
+    background-color: #437c3f;
+    border-color: transparent;
+}
+
+/* -------------------------------------- */
+/* HEADER */
+/* -------------------------------------- */
+
+.logo {
+    margin-right: 2.5em;
+    width: 70px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    box-shadow: 0 1px 10px -2px rgba(0, 0, 0, 0.15);
+}
+
+.nav-b > div:last-child {
+    margin-left: 100px;
+}
+
+.nav-a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-box p,
+.icon-location {
+    color: rgb(121, 117, 117);
+}
+
+.location-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.location-box p {
+    font-size: 110%;
+    letter-spacing: 0.3px;
+}
+
+.icon-location {
+    font-size: 160%;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5em;
+}
+
+.main-nav a {
+    font-size: 110%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: rgb(88, 86, 86);
+}
+
+/* -------------------------------------- */
+/* INFO */
+/* -------------------------------------- */
+
+.order-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 97px;
+    background-color: rgba(15, 52, 15, 0.767);
+}
+
+.media-row {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 40px;
+}
+
+.row1 .pair-text {
+    background-color: rgb(157, 9, 36);
+}
+
+.row2 .pair-text {
+    background-color: rgb(212, 10, 50);
+}
+
+.row3 .pair-text,
+.row4 .pair-text {
+    background-color: rgb(3, 109, 67);
+}
+
+.row5 .pair-text {
+    background-color: #e7dcdc;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    height: auto;
+    max-height: 42.75em;
+}
+
+.pair-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.pair-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pair-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+    text-align: center;
+}
