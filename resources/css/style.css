@@ -64,6 +64,13 @@ h3 {
     color: rgb(5, 93, 5);
 }
 
+h4 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+}
+
 /* ------ PARAGRAPHS ------ */
 
 .row1 .pair-text p,
@@ -92,6 +99,15 @@ h3 {
     width: 70%;
     color: #fff;
     line-height: 1.6;
+}
+
+.long-copy {
+    max-width: 600px;      
+    line-height: 1.6;      
+    font-size: 0.9rem;     
+    color: #333;           
+    text-align: justify;   
+    margin: 70px auto 50px auto;     
 }
 
 /* ------ BUTTONS ------ */
@@ -184,6 +200,20 @@ h3 {
     border-color: transparent;
 }
 
+/* ------ ICONS ------ */
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.social-icons ion-icon {
+    font-size: 2.3em;
+}
+
 /* -------------------------------------- */
 /* HEADER */
 /* -------------------------------------- */
@@ -257,6 +287,16 @@ h3 {
 /* INFO */
 /* -------------------------------------- */
 
+.section-info::after {
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(196, 194, 194);
+    height: 2px;
+    width: 99%;
+}
+
 .order-box {
     display: flex;
     justify-content: center;
@@ -319,4 +359,67 @@ h3 {
     gap: 30px;
     flex: 1;
     text-align: center;
+}
+
+/* -------------------------------------- */
+/* FOOTER */
+/* -------------------------------------- */
+
+.container-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    padding-left: 50px;
+}
+
+.social-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+}
+
+.social-list a {
+    font-size: 1.1em;
+    color: rgb(97, 96, 96);
+    letter-spacing: 1.1px;
+    text-decoration: none;
+}
+
+.bottom-box {
+    padding-left: 50px;
+}
+
+.bottom-box ul {
+    list-style: none;
+}
+
+.bottom-box::before {
+    content: " ";
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(196, 194, 194);
+    height: 2px;
+    width: 95%;
+}
+
+.privacy-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.privacy-info a {
+    color: #000000cd;
+    text-decoration: none;
+}
+
+.copyright-text {
+    margin-left: 60px;
+    margin-bottom: 50px;
+    font-size: 0.9em;
+    color: rgb(139, 138, 138);
 }
