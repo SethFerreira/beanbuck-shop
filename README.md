@@ -45,6 +45,11 @@ The goal of this project is to practice **front-end development skills** and dem
 
 ## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SethFerreira/beanbuck-shop.git
+Open `index.html` in your browser to view the website.
+
+- **Navigation:** Use the top menu links to navigate. On smaller screens, click the hamburger icon to toggle the mobile menu.  
+- **Buttons:** All buttons (e.g., "Start an Order," "Sign Up Today") are visual and for demonstration only—they do not perform any real actions.  
+- **Scrolling:** Scroll down to explore promotional sections, seasonal offers, and membership perks.  
+- **Footer:** Browse company info, career hub, social media links, and privacy/legal information.
+
+No installation or backend is required, as this is a static mock website.
