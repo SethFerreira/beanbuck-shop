@@ -1,6 +1,5 @@
 const toggleBtn = document.querySelector('.btn-close');
 const mainNav = document.querySelector('.main-nav');
-const socialListNav = document.querySelector('.social-list ul');
 const socialListNavIcon = document.querySelectorAll('.icon-text ion-icon');
 
 toggleBtn.addEventListener('click', () => {
