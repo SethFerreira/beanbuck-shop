@@ -272,7 +272,9 @@ img {
 }
 
 .long-copy {
+    margin: 0 auto;
     margin-bottom: 1.90rem;
+    width: 60%;
 }
 
 /* -------------------------------------- */
@@ -300,6 +302,7 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1.88em;
+    margin-top: 1.5rem;
     list-style: none;
 }
 
